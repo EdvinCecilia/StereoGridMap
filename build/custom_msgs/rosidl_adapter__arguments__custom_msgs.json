@@ -1,0 +1,9 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/edvin/ros2_ws/src/custom_msgs:msg/ImageNv12.msg",
+    "/home/edvin/ros2_ws/src/custom_msgs:msg/ImageDiff.msg",
+    "/home/edvin/ros2_ws/src/custom_msgs:msg/Object.msg",
+    "/home/edvin/ros2_ws/src/custom_msgs:msg/ObjectInfo.msg"
+  ]
+}

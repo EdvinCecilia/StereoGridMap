@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found custom_msgs: 0.0.0 (/home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/edvin/ros2_ws/build/my_ros_package
+[35m[1mConsolidate compiler generated dependencies of target disparity_processing_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/DisparityToPointCloud.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/DisparityProcessingNode.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/GridMap.cpp.o[0m
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:[m[K In member function ‘[01m[Kint GridMap::findMaxCountCell(float, const std::vector<float>&)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:103:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeta_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  103 | int GridMap::findMaxCountCell([01;35m[Kfloat beta_r[m[K, const std::vector<float>& ar_values) {
+      |                               [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:103:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kar_values[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  103 | int GridMap::findMaxCountCell(float beta_r, [01;35m[Kconst std::vector<float>& ar_values[m[K) {
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:[m[K In member function ‘[01m[Kvoid GridMap::adjustGridsByOccupancy(float, const std::vector<float>&)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:121:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  121 |             float [01;35m[Kbi[m[K = ar_values[i] * cells[i][j].averageHeight / resolution_;
+      |                   [01;35m[K^~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:118:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeta_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  118 | void GridMap::adjustGridsByOccupancy([01;35m[Kfloat beta_r[m[K, const std::vector<float>& ar_values) {
+      |                                      [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:[m[K In constructor ‘[01m[KDisparityProcessingNode::DisparityProcessingNode()[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:22:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+   22 |        [01;31m[Kimage_pub_[m[K = this->create_publisher<sensor_msgs::msg::Image>("/processed_image", 10);
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:[m[K In member function ‘[01m[Kvoid DisparityProcessingNode::disparityCallback(custom_msgs::msg::ImageNv12_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+   61 |         [01;31m[Kimage_pub_[m[K->publish(ros_image);
+      |         [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/disparity_processing_node.dir/build.make:76: CMakeFiles/disparity_processing_node.dir/src/DisparityProcessingNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/disparity_processing_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

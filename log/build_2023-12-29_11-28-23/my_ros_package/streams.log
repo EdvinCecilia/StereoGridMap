@@ -1,0 +1,169 @@
+[0.055s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target image_nv12_subscriber[0m
+[0.105s] [ 66%] Built target disparity_processing_node
+[0.108s] [ 83%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[2.872s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In function ‘[01m[Kcv::Mat raw_2_rgb(uint16_t*, int, int)[m[K’:
+[2.872s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:46:33:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (uint16_t* {aka short unsigned int*}) / sizeof (uint16_t {aka short unsigned int})[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+[2.872s]    46 |     size_t length = [01;35m[Ksizeof(raw) / sizeof(raw[0])[m[K;
+[2.872s]       |                     [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.872s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:44:29:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+[2.872s]    44 | cv::Mat raw_2_rgb([01;36m[Kuint16_t *raw[m[K, int width, int height)
+[2.872s]       |                   [01;36m[K~~~~~~~~~~^~~[m[K
+[2.936s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageNv12Subscriber::processDisparityData(const uint8_t*, int, int)[m[K’:
+[2.936s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:173:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.936s]   173 |     if ([01;31m[Kmsg[m[K->width * msg->height * 2 != sizeof(data_buff)) {
+[2.936s]       |         [01;31m[K^~~[m[K
+[2.936s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:173:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.936s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[2.936s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[2.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.938s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[2.938s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.938s]    27 | namespace [01;36m[Kmsg[m[K
+[2.938s]       |           [01;36m[K^~~[m[K
+[2.938s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.938s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[2.938s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.938s]    27 | namespace [01;36m[Kmsg[m[K
+[2.939s]       |           [01;36m[K^~~[m[K
+[2.939s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.939s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[2.939s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.939s]    27 | namespace [01;36m[Kmsg[m[K
+[2.939s]       |           [01;36m[K^~~[m[K
+[2.939s] In file included from [01m[K/home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_nv12.hpp:7[m[K,
+[2.939s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:3[m[K:
+[2.939s] [01m[K/home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcustom_msgs::msg[m[K’
+[2.939s]    27 | namespace [01;36m[Kmsg[m[K
+[2.939s]       |           [01;36m[K^~~[m[K
+[2.940s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+[2.940s]                  from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[2.940s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:8[m[K:
+[2.940s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[2.940s]    31 | namespace [01;36m[Kmsg[m[K
+[2.940s]       |           [01;36m[K^~~[m[K
+[2.940s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[2.940s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:8[m[K:
+[2.940s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[2.940s]    31 | namespace [01;36m[Kmsg[m[K
+[2.940s]       |           [01;36m[K^~~[m[K
+[2.940s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:178:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.940s]   178 |     memcpy(data_buff, [01;31m[Kmsg[m[K->data.data(), msg->width * msg->height * 2);
+[2.940s]       |                       [01;31m[K^~~[m[K
+[2.940s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:178:23:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.940s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.940s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[2.940s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.940s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[2.940s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.940s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.941s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.941s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[2.941s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.941s]    27 | namespace [01;36m[Kmsg[m[K
+[2.941s]       |           [01;36m[K^~~[m[K
+[2.941s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.942s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[2.942s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.942s]    27 | namespace [01;36m[Kmsg[m[K
+[2.942s]       |           [01;36m[K^~~[m[K
+[2.942s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.943s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[2.943s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.943s]    27 | namespace [01;36m[Kmsg[m[K
+[2.943s]       |           [01;36m[K^~~[m[K
+[2.943s] In file included from [01m[K/home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_nv12.hpp:7[m[K,
+[2.943s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:3[m[K:
+[2.943s] [01m[K/home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcustom_msgs::msg[m[K’
+[2.943s]    27 | namespace [01;36m[Kmsg[m[K
+[2.943s]       |           [01;36m[K^~~[m[K
+[2.943s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:20[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[2.943s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:8[m[K:
+[2.944s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[2.944s]    31 | namespace [01;36m[Kmsg[m[K
+[2.944s]       |           [01;36m[K^~~[m[K
+[2.944s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[2.944s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:8[m[K:
+[2.944s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[2.944s]    31 | namespace [01;36m[Kmsg[m[K
+[2.944s]       |           [01;36m[K^~~[m[K
+[2.944s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:164:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdisparity_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.944s]   164 |     void processDisparityData([01;35m[Kconst uint8_t* disparity_data[m[K, int width, int height) {
+[2.944s]       |                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.944s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:164:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwidth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.944s]   164 | oid processDisparityData(const uint8_t* disparity_data, [01;35m[Kint width[m[K, int height) {
+[2.944s]       |                                                         [01;35m[K~~~~^~~~~[m[K
+[2.944s] 
+[2.944s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:164:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kheight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.944s]   164 | ssDisparityData(const uint8_t* disparity_data, int width, [01;35m[Kint height[m[K) {
+[2.944s]       |                                                           [01;35m[K~~~~^~~~~~[m[K
+[2.944s] 
+[5.744s] gmake[2]: *** [CMakeFiles/image_nv12_subscriber.dir/build.make:76: CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o] Error 1
+[5.745s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_nv12_subscriber.dir/all] Error 2
+[5.745s] gmake: *** [Makefile:146: all] Error 2
+[5.748s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '2': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8

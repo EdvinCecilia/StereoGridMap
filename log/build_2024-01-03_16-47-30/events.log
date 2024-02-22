@@ -1,0 +1,421 @@
+[0.000000] (-) TimerEvent: {}
+[0.000344] (custom_msgs) JobQueued: {'identifier': 'custom_msgs', 'dependencies': OrderedDict()}
+[0.000388] (my_ros_package) JobQueued: {'identifier': 'my_ros_package', 'dependencies': OrderedDict([('custom_msgs', '/home/edvin/ros2_ws/install/custom_msgs')])}
+[0.000426] (custom_msgs) JobStarted: {'identifier': 'custom_msgs'}
+[0.054598] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'cmake'}
+[0.055397] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'build'}
+[0.056195] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edvin/ros2_ws/build/custom_msgs', '--', '-j8', '-l8'], 'cwd': '/home/edvin/ros2_ws/build/custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edvin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edvin/ros2_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edvin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2153'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0ded25289b2c9427be3f5f6865950626'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/edvin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edvin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edvin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edvin-virtual-machine:@/tmp/.ICE-unix/2153,unix/edvin-virtual-machine:/tmp/.ICE-unix/2153'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe2818e3_d963_4a51_9d26_f2b75597a949'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P1PWG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/edvin/ros2_ws/install/my_ros_package:/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edvin/ros2_ws/build/custom_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0ded25289b2c9427be3f5f6865950626'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edvin/ros2_ws/install/my_ros_package:/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099506] (-) TimerEvent: {}
+[0.104793] (custom_msgs) StdoutLine: {'line': b'[  1%] Built target custom_msgs__cpp\n'}
+[0.120722] (custom_msgs) StdoutLine: {'line': b'[ 12%] Built target custom_msgs__rosidl_generator_c\n'}
+[0.138819] (custom_msgs) StdoutLine: {'line': b'[ 23%] Built target custom_msgs__rosidl_typesupport_cpp\n'}
+[0.141894] (custom_msgs) StdoutLine: {'line': b'[ 34%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.143619] (custom_msgs) StdoutLine: {'line': b'[ 34%] Built target ament_cmake_python_copy_custom_msgs\n'}
+[0.149779] (custom_msgs) StdoutLine: {'line': b'[ 45%] Built target custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.155317] (custom_msgs) StdoutLine: {'line': b'[ 56%] Built target custom_msgs__rosidl_typesupport_introspection_c\n'}
+[0.158467] (custom_msgs) StdoutLine: {'line': b'[ 67%] Built target custom_msgs__rosidl_typesupport_c\n'}
+[0.159442] (custom_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.179419] (custom_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs\n'}
+[0.200372] (custom_msgs) StdoutLine: {'line': b'[ 80%] Built target custom_msgs__py\n'}
+[0.200615] (-) TimerEvent: {}
+[0.225074] (custom_msgs) StdoutLine: {'line': b'[ 89%] Built target custom_msgs__rosidl_generator_py\n'}
+[0.250378] (custom_msgs) StdoutLine: {'line': b'[ 92%] Built target custom_msgs__rosidl_typesupport_c__pyext\n'}
+[0.250637] (custom_msgs) StdoutLine: {'line': b'[ 96%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.254657] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.301547] (-) TimerEvent: {}
+[0.357315] (custom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.358389] (custom_msgs) StdoutLine: {'line': b'writing custom_msgs.egg-info/PKG-INFO\n'}
+[0.358724] (custom_msgs) StdoutLine: {'line': b'writing dependency_links to custom_msgs.egg-info/dependency_links.txt\n'}
+[0.359265] (custom_msgs) StdoutLine: {'line': b'writing top-level names to custom_msgs.egg-info/top_level.txt\n'}
+[0.361982] (custom_msgs) StdoutLine: {'line': b"reading manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[0.362166] (custom_msgs) StdoutLine: {'line': b"writing manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[0.392976] (custom_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_msgs_egg\n'}
+[0.401840] (-) TimerEvent: {}
+[0.404322] (custom_msgs) CommandEnded: {'returncode': 0}
+[0.502227] (-) TimerEvent: {}
+[0.533094] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'install'}
+[0.542044] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/edvin/ros2_ws/build/custom_msgs'], 'cwd': '/home/edvin/ros2_ws/build/custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edvin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edvin/ros2_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edvin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2153'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0ded25289b2c9427be3f5f6865950626'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/edvin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edvin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edvin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edvin-virtual-machine:@/tmp/.ICE-unix/2153,unix/edvin-virtual-machine:/tmp/.ICE-unix/2153'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe2818e3_d963_4a51_9d26_f2b75597a949'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P1PWG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/edvin/ros2_ws/install/my_ros_package:/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edvin/ros2_ws/build/custom_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0ded25289b2c9427be3f5f6865950626'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edvin/ros2_ws/install/my_ros_package:/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble')]), 'shell': False}
+[0.549312] (custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.549734] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs\n'}
+[0.550025] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[0.550320] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[0.550536] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_nv12.h\n'}
+[0.550691] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_diff.h\n'}
+[0.550742] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.550816] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[0.551075] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__struct.h\n'}
+[0.551256] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__struct.h\n'}
+[0.551354] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__type_support.h\n'}
+[0.551444] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__functions.c\n'}
+[0.551513] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__functions.h\n'}
+[0.551584] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__functions.h\n'}
+[0.552035] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__struct.h\n'}
+[0.552096] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__type_support.h\n'}
+[0.552312] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__functions.c\n'}
+[0.552401] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__type_support.h\n'}
+[0.552502] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__type_support.h\n'}
+[0.552560] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__functions.c\n'}
+[0.552630] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__functions.h\n'}
+[0.552867] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__functions.h\n'}
+[0.552963] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__struct.h\n'}
+[0.553092] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__functions.c\n'}
+[0.553316] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/object_info.h\n'}
+[0.553377] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/object.h\n'}
+[0.553444] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh\n'}
+[0.553498] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv\n'}
+[0.553616] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so\n'}
+[0.553705] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[0.553797] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[0.553979] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.554095] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[0.554198] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.554271] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__rosidl_typesupport_fastrtps_c.h\n'}
+[0.554343] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__rosidl_typesupport_fastrtps_c.h\n'}
+[0.554431] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[0.554518] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.554605] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[0.554692] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[0.554779] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[0.554996] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__rosidl_typesupport_introspection_c.h\n'}
+[0.555079] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__type_support.c\n'}
+[0.555131] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__type_support.c\n'}
+[0.555196] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__rosidl_typesupport_introspection_c.h\n'}
+[0.555252] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__type_support.c\n'}
+[0.555298] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__rosidl_typesupport_introspection_c.h\n'}
+[0.555354] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__type_support.c\n'}
+[0.555400] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[0.555446] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.555498] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.555545] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so\n'}
+[0.555591] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[0.555636] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[0.555681] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/object_info.hpp\n'}
+[0.555725] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_nv12.hpp\n'}
+[0.555768] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_diff.hpp\n'}
+[0.555811] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[0.555854] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__builder.hpp\n'}
+[0.555898] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__traits.hpp\n'}
+[0.555943] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__struct.hpp\n'}
+[0.555987] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__builder.hpp\n'}
+[0.556052] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__traits.hpp\n'}
+[0.556096] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__struct.hpp\n'}
+[0.556139] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__builder.hpp\n'}
+[0.556267] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__builder.hpp\n'}
+[0.556322] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__struct.hpp\n'}
+[0.556367] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__traits.hpp\n'}
+[0.556412] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__traits.hpp\n'}
+[0.556458] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__struct.hpp\n'}
+[0.556503] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/object.hpp\n'}
+[0.556549] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[0.556602] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[0.556648] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.556694] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[0.556739] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.556787] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.556833] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.556878] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.556924] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/dds_fastrtps\n'}
+[0.556969] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.557014] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs\n'}
+[0.557059] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg\n'}
+[0.557110] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail\n'}
+[0.557156] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__type_support.cpp\n'}
+[0.557258] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.557310] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__type_support.cpp\n'}
+[0.557356] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.557402] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.557447] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__type_support.cpp\n'}
+[0.557493] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__type_support.cpp\n'}
+[0.557538] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.557583] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.557629] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so\n'}
+[0.557675] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh\n'}
+[0.557735] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv\n'}
+[0.557782] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info\n'}
+[0.557828] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.557874] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.557921] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.557968] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.558015] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs\n'}
+[0.558060] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg\n'}
+[0.558106] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_nv12.py\n'}
+[0.558152] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_nv12_s.c\n'}
+[0.558294] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object.py\n'}
+[0.558353] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py\n'}
+[0.558399] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object_s.c\n'}
+[0.558444] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object_info.py\n'}
+[0.558494] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object_info_s.c\n'}
+[0.558556] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_diff.py\n'}
+[0.558620] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_diff_s.c\n'}
+[0.558675] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.558741] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so\n'}
+[0.558833] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.558912] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py\n'}
+[0.558984] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.559051] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.559133] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.559238] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.579887] (custom_msgs) StdoutLine: {'line': b"Listing '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...\n"}
+[0.580138] (custom_msgs) StdoutLine: {'line': b"Listing '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...\n"}
+[0.584146] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.584620] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.585045] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.585378] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so\n'}
+[0.585841] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ImageNv12.idl\n'}
+[0.586177] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ImageDiff.idl\n'}
+[0.586336] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/Object.idl\n'}
+[0.586444] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ObjectInfo.idl\n'}
+[0.586551] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ImageNv12.msg\n'}
+[0.586652] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ImageDiff.msg\n'}
+[0.586750] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/Object.msg\n'}
+[0.586832] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ObjectInfo.msg\n'}
+[0.586878] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs\n'}
+[0.586924] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs\n'}
+[0.586972] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh\n'}
+[0.587061] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv\n'}
+[0.587113] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/path.sh\n'}
+[0.587159] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv\n'}
+[0.587209] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.bash\n'}
+[0.587314] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.sh\n'}
+[0.587567] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh\n'}
+[0.587749] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv\n'}
+[0.587847] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/package.dsv\n'}
+[0.587935] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs\n'}
+[0.588024] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[0.588117] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.588206] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.588325] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.588399] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.588492] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.588581] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.588667] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.588771] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.588860] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.589084] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.589145] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.589191] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.590534] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.590637] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.590684] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.590750] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.590796] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.590846] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.590904] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.590949] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.590993] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.591037] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.591081] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.592222] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake\n'}
+[0.593991] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake\n'}
+[0.594124] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/package.xml\n'}
+[0.595125] (custom_msgs) CommandEnded: {'returncode': 0}
+[0.602880] (-) TimerEvent: {}
+[0.704371] (-) TimerEvent: {}
+[0.805712] (-) TimerEvent: {}
+[0.850882] (custom_msgs) JobEnded: {'identifier': 'custom_msgs', 'rc': 0}
+[0.852280] (my_ros_package) JobStarted: {'identifier': 'my_ros_package'}
+[0.906893] (-) TimerEvent: {}
+[0.922355] (my_ros_package) JobProgress: {'identifier': 'my_ros_package', 'progress': 'cmake'}
+[0.923542] (my_ros_package) JobProgress: {'identifier': 'my_ros_package', 'progress': 'build'}
+[0.926194] (my_ros_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/edvin/ros2_ws/build/my_ros_package', '--', '-j8', '-l8'], 'cwd': '/home/edvin/ros2_ws/build/my_ros_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edvin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edvin/ros2_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edvin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2153'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0ded25289b2c9427be3f5f6865950626'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/edvin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edvin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edvin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edvin-virtual-machine:@/tmp/.ICE-unix/2153,unix/edvin-virtual-machine:/tmp/.ICE-unix/2153'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe2818e3_d963_4a51_9d26_f2b75597a949'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P1PWG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/edvin/ros2_ws/install/my_ros_package:/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edvin/ros2_ws/build/my_ros_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0ded25289b2c9427be3f5f6865950626'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble')]), 'shell': False}
+[0.980616] (my_ros_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_nv12_subscriber\x1b[0m\n'}
+[0.998581] (my_ros_package) StdoutLine: {'line': b'[ 66%] Built target disparity_processing_node\n'}
+[1.002574] (my_ros_package) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o\x1b[0m\n'}
+[1.007534] (-) TimerEvent: {}
+[1.108285] (-) TimerEvent: {}
+[1.209837] (-) TimerEvent: {}
+[1.310883] (-) TimerEvent: {}
+[1.411635] (-) TimerEvent: {}
+[1.513203] (-) TimerEvent: {}
+[1.613706] (-) TimerEvent: {}
+[1.714183] (-) TimerEvent: {}
+[1.815015] (-) TimerEvent: {}
+[1.915533] (-) TimerEvent: {}
+[2.016475] (-) TimerEvent: {}
+[2.117541] (-) TimerEvent: {}
+[2.218012] (-) TimerEvent: {}
+[2.318994] (-) TimerEvent: {}
+[2.419445] (-) TimerEvent: {}
+[2.520564] (-) TimerEvent: {}
+[2.621864] (-) TimerEvent: {}
+[2.722818] (-) TimerEvent: {}
+[2.823700] (-) TimerEvent: {}
+[2.925078] (-) TimerEvent: {}
+[3.025641] (-) TimerEvent: {}
+[3.126206] (-) TimerEvent: {}
+[3.226965] (-) TimerEvent: {}
+[3.327459] (-) TimerEvent: {}
+[3.428071] (-) TimerEvent: {}
+[3.528725] (-) TimerEvent: {}
+[3.629691] (-) TimerEvent: {}
+[3.730185] (-) TimerEvent: {}
+[3.831470] (-) TimerEvent: {}
+[3.932500] (-) TimerEvent: {}
+[4.033558] (-) TimerEvent: {}
+[4.084911] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KMinMaxAverage calculateDepthStatistics(const uint16_t*, int, int, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.085158] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:40:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[KminDepth\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.085221] (my_ros_package) StderrLine: {'line': b'   40 |     return {\x1b[01;35m\x1b[KminDepth\x1b[m\x1b[K, maxDepth, averageDepth};\n'}
+[4.085267] (my_ros_package) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.085316] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:40:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[KmaxDepth\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kuint16_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.085367] (my_ros_package) StderrLine: {'line': b'   40 |     return {minDepth, \x1b[01;35m\x1b[KmaxDepth\x1b[m\x1b[K, averageDepth};\n'}
+[4.085445] (my_ros_package) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.086875] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat raw_2_rgb(uint16_t*, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.087042] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:71:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.087097] (my_ros_package) StderrLine: {'line': b'   71 |     MinMaxAverage \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K = findMinMaxAndAverage(raw, length);\n'}
+[4.087144] (my_ros_package) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.134558] (-) TimerEvent: {}
+[4.159798] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImageNv12Subscriber::topic_callback(custom_msgs::msg::ImageNv12_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.160096] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:192:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kcustom_msgs::msg::ImageNv12_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.160214] (my_ros_package) StderrLine: {'line': b'  192 |         for (int i = 0; \x1b[01;35m\x1b[Ki < msg->width * msg->height\x1b[m\x1b[K; ++i) {\n'}
+[4.160315] (my_ros_package) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.160814] (my_ros_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.160869] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.160915] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.160961] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.161006] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.161050] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.161095] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.161139] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.161199] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.161246] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.161290] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.161335] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[4.161381] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.161491] (my_ros_package) StderrLine: {'line': b'  197 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Depth - Min: %f, Max: %f, Average: %f"\x1b[m\x1b[K,\n'}
+[4.161543] (my_ros_package) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.161588] (my_ros_package) StderrLine: {'line': b'  198 |                             \x1b[32m\x1b[KdepthStats.min\x1b[m\x1b[K, depthStats.max, depthStats.average);\n'}
+[4.161634] (my_ros_package) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.161678] (my_ros_package) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.161723] (my_ros_package) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.161781] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.161849] (my_ros_package) StderrLine: {'line': b'  197 |         RCLCPP_INFO(this->get_logger(), "Depth - Min: \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, Max: %f, Average: %f",\n'}
+[4.161898] (my_ros_package) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.161942] (my_ros_package) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.161997] (my_ros_package) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.162042] (my_ros_package) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.162086] (my_ros_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.162131] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.162176] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.162221] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.162265] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.162312] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.162358] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.162482] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.162642] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.162701] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.162746] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.162791] (my_ros_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[4.162838] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.162889] (my_ros_package) StderrLine: {'line': b'  197 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Depth - Min: %f, Max: %f, Average: %f"\x1b[m\x1b[K,\n'}
+[4.162934] (my_ros_package) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.162979] (my_ros_package) StderrLine: {'line': b'  198 |                             depthStats.min, \x1b[32m\x1b[KdepthStats.max\x1b[m\x1b[K, depthStats.average);\n'}
+[4.163023] (my_ros_package) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.163080] (my_ros_package) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.163126] (my_ros_package) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.163171] (my_ros_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.163217] (my_ros_package) StderrLine: {'line': b'  197 |     RCLCPP_INFO(this->get_logger(), "Depth - Min: %f, Max: \x1b[01;36m\x1b[K%f\x1b[m\x1b[K, Average: %f",\n'}
+[4.163268] (my_ros_package) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.163312] (my_ros_package) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.163356] (my_ros_package) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.163401] (my_ros_package) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[4.235542] (-) TimerEvent: {}
+[4.336109] (-) TimerEvent: {}
+[4.436561] (-) TimerEvent: {}
+[4.537169] (-) TimerEvent: {}
+[4.638273] (-) TimerEvent: {}
+[4.739249] (-) TimerEvent: {}
+[4.841200] (-) TimerEvent: {}
+[4.941943] (-) TimerEvent: {}
+[5.042474] (-) TimerEvent: {}
+[5.143630] (-) TimerEvent: {}
+[5.244565] (-) TimerEvent: {}
+[5.345551] (-) TimerEvent: {}
+[5.446628] (-) TimerEvent: {}
+[5.547629] (-) TimerEvent: {}
+[5.648346] (-) TimerEvent: {}
+[5.748822] (-) TimerEvent: {}
+[5.849479] (-) TimerEvent: {}
+[5.950449] (-) TimerEvent: {}
+[6.051444] (-) TimerEvent: {}
+[6.152481] (-) TimerEvent: {}
+[6.253353] (-) TimerEvent: {}
+[6.353937] (-) TimerEvent: {}
+[6.454260] (-) TimerEvent: {}
+[6.554632] (-) TimerEvent: {}
+[6.655267] (-) TimerEvent: {}
+[6.756247] (-) TimerEvent: {}
+[6.856844] (-) TimerEvent: {}
+[6.958015] (-) TimerEvent: {}
+[7.058711] (-) TimerEvent: {}
+[7.160152] (-) TimerEvent: {}
+[7.261066] (-) TimerEvent: {}
+[7.362591] (-) TimerEvent: {}
+[7.463639] (-) TimerEvent: {}
+[7.564093] (-) TimerEvent: {}
+[7.664500] (-) TimerEvent: {}
+[7.765067] (-) TimerEvent: {}
+[7.865793] (-) TimerEvent: {}
+[7.966427] (-) TimerEvent: {}
+[8.067724] (-) TimerEvent: {}
+[8.168462] (-) TimerEvent: {}
+[8.269945] (-) TimerEvent: {}
+[8.370459] (-) TimerEvent: {}
+[8.471554] (-) TimerEvent: {}
+[8.572302] (-) TimerEvent: {}
+[8.672987] (-) TimerEvent: {}
+[8.773815] (-) TimerEvent: {}
+[8.875120] (-) TimerEvent: {}
+[8.975598] (-) TimerEvent: {}
+[9.076192] (-) TimerEvent: {}
+[9.176825] (-) TimerEvent: {}
+[9.277391] (-) TimerEvent: {}
+[9.378491] (-) TimerEvent: {}
+[9.479791] (-) TimerEvent: {}
+[9.580610] (-) TimerEvent: {}
+[9.681282] (-) TimerEvent: {}
+[9.782641] (-) TimerEvent: {}
+[9.883834] (-) TimerEvent: {}
+[9.984845] (-) TimerEvent: {}
+[10.085762] (-) TimerEvent: {}
+[10.186159] (-) TimerEvent: {}
+[10.287026] (-) TimerEvent: {}
+[10.387496] (-) TimerEvent: {}
+[10.488015] (-) TimerEvent: {}
+[10.589489] (-) TimerEvent: {}
+[10.690826] (-) TimerEvent: {}
+[10.711031] (my_ros_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_nv12_subscriber\x1b[0m\n'}
+[10.791720] (-) TimerEvent: {}
+[10.892723] (-) TimerEvent: {}
+[10.993409] (-) TimerEvent: {}
+[11.094752] (-) TimerEvent: {}
+[11.195482] (-) TimerEvent: {}
+[11.296530] (-) TimerEvent: {}
+[11.397121] (-) TimerEvent: {}
+[11.497090] (my_ros_package) StdoutLine: {'line': b'[100%] Built target image_nv12_subscriber\n'}
+[11.497246] (-) TimerEvent: {}
+[11.507659] (my_ros_package) CommandEnded: {'returncode': 0}
+[11.544587] (my_ros_package) JobProgress: {'identifier': 'my_ros_package', 'progress': 'install'}
+[11.545678] (my_ros_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/edvin/ros2_ws/build/my_ros_package'], 'cwd': '/home/edvin/ros2_ws/build/my_ros_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'edvin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/edvin/ros2_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/edvin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2153'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0ded25289b2c9427be3f5f6865950626'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/edvin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'edvin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'edvin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edvin-virtual-machine:@/tmp/.ICE-unix/2153,unix/edvin-virtual-machine:/tmp/.ICE-unix/2153'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe2818e3_d963_4a51_9d26_f2b75597a949'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P1PWG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/edvin/ros2_ws/install/my_ros_package:/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/edvin/ros2_ws/build/my_ros_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0ded25289b2c9427be3f5f6865950626'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble')]), 'shell': False}
+[11.552481] (my_ros_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.552785] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/package_run_dependencies/my_ros_package\n'}
+[11.553001] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/parent_prefix_path/my_ros_package\n'}
+[11.553111] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.sh\n'}
+[11.553189] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.dsv\n'}
+[11.553240] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.sh\n'}
+[11.553317] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.dsv\n'}
+[11.553409] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.bash\n'}
+[11.553494] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.sh\n'}
+[11.553590] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.zsh\n'}
+[11.553823] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.dsv\n'}
+[11.553938] (my_ros_package) StdoutLine: {'line': b'-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.dsv\n'}
+[11.553990] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/packages/my_ros_package\n'}
+[11.554038] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig.cmake\n'}
+[11.554084] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig-version.cmake\n'}
+[11.554131] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.xml\n'}
+[11.554176] (my_ros_package) StdoutLine: {'line': b'-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node\n'}
+[11.554223] (my_ros_package) StdoutLine: {'line': b'-- Installing: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber\n'}
+[11.557497] (my_ros_package) StdoutLine: {'line': b'-- Set runtime path of "/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber" to ""\n'}
+[11.559381] (my_ros_package) CommandEnded: {'returncode': 0}
+[11.598350] (-) TimerEvent: {}
+[11.693364] (my_ros_package) JobEnded: {'identifier': 'my_ros_package', 'rc': 0}
+[11.694812] (-) EventReactorShutdown: {}

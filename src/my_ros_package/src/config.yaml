@@ -1,0 +1,16 @@
+camera:
+  fx: 1092.904615
+  fy: 1092.904615
+  cx: 625.243479
+  cy: 504.157977
+  baseline: 0.119549819
+
+grid_map:
+  width: 100
+  height: 100
+  resolution: 0.5
+
+visualization:
+  fov: 60
+  display_width: 500
+  display_height: 500

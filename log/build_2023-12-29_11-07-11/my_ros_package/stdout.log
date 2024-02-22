@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target disparity_processing_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[ 83%] Built target disparity_processing_node

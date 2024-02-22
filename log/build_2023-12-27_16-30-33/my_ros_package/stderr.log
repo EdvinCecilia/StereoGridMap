@@ -1,0 +1,7 @@
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageNv12Subscriber::processDisparityData(const uint16_t*, int, int)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:140:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_msg[m[K’ was not declared in this scope
+  140 |     publisher_->publish(*[01;31m[Kimage_msg[m[K);
+      |                          [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_nv12_subscriber.dir/build.make:76: CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_nv12_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

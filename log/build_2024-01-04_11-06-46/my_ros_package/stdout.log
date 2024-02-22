@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target image_nv12_subscriber[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/DisparityToPointCloud.cpp.o[0m
+[ 50%] Built target image_nv12_subscriber

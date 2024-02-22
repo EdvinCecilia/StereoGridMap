@@ -1,0 +1,309 @@
+[0.043s] Invoking command in '/home/edvin/ros2_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edvin/ros2_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/edvin/ros2_ws/install/custom_msgs
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.256s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.346s] -- Detecting CXX compile features - done
+[0.348s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.578s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.896s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.302s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.324s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.324s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.324s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.346s] -- Found PythonExtra: .so  
+[1.378s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.392s] -- Added test 'lint_cmake' to check CMake code style
+[1.393s] -- Added test 'xmllint' to check XML markup files
+[1.396s] -- Configuring done
+[1.440s] -- Generating done
+[1.442s] -- Build files have been written to: /home/edvin/ros2_ws/build/custom_msgs
+[1.450s] Invoked command in '/home/edvin/ros2_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edvin/ros2_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/edvin/ros2_ws/install/custom_msgs
+[1.451s] Invoking command in '/home/edvin/ros2_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/custom_msgs -- -j8 -l8
+[1.493s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.503s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.511s] [  3%] Built target ament_cmake_python_copy_custom_msgs
+[1.736s] running egg_info
+[1.737s] creating custom_msgs.egg-info
+[1.737s] writing custom_msgs.egg-info/PKG-INFO
+[1.737s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[1.738s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[1.738s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.740s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.741s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.786s] [  3%] Built target ament_cmake_python_build_custom_msgs_egg
+[1.911s] [  5%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/image_nv12__functions.c.o[0m
+[1.912s] [  7%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/image_diff__functions.c.o[0m
+[1.913s] [  9%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/object__functions.c.o[0m
+[1.918s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/object_info__functions.c.o[0m
+[1.929s] [ 10%] Built target custom_msgs__cpp
+[1.940s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.940s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.948s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.973s] [ 18%] [32m[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so[0m
+[2.017s] [ 18%] Built target custom_msgs__rosidl_generator_c
+[2.028s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.028s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.028s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.281s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/image_nv12__type_support.cpp.o[0m
+[2.282s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/image_diff__type_support.cpp.o[0m
+[2.293s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/object__type_support.cpp.o[0m
+[2.392s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/image_nv12__type_support.cpp.o[0m
+[2.419s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/image_nv12__type_support.cpp.o[0m
+[2.427s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/image_diff__type_support.cpp.o[0m
+[2.450s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/image_nv12__type_support.cpp.o[0m
+[2.464s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/object__type_support.cpp.o[0m
+[2.503s] [ 40%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/image_nv12__type_support.c.o[0m
+[2.505s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/object_info__type_support.cpp.o[0m
+[2.541s] [ 43%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so[0m
+[2.560s] [ 45%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/image_diff__type_support.c.o[0m
+[2.583s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/image_nv12__type_support_c.cpp.o[0m
+[2.597s] [ 47%] Built target custom_msgs__rosidl_typesupport_c
+[2.601s] [ 49%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/object__type_support.c.o[0m
+[2.608s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/image_diff__type_support.cpp.o[0m
+[2.621s] [ 52%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/object_info__type_support.cpp.o[0m
+[2.637s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[2.637s] [ 56%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/object_info__type_support.c.o[0m
+[2.667s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/object_info__type_support.cpp.o[0m
+[2.678s] [ 60%] [32m[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.729s] [ 60%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[2.739s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/image_diff__type_support.cpp.o[0m
+[2.955s] [ 63%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/object__type_support.cpp.o[0m
+[2.956s] [ 65%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so[0m
+[2.964s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/image_diff__type_support_c.cpp.o[0m
+[3.002s] [ 67%] Built target custom_msgs__rosidl_typesupport_cpp
+[3.015s] [ 69%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/object__type_support_c.cpp.o[0m
+[3.044s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/object_info__type_support_c.cpp.o[0m
+[3.133s] [ 72%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/object_info__type_support.cpp.o[0m
+[3.184s] [ 74%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.300s] [ 74%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[3.401s] [ 76%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.495s] [ 76%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[3.519s] [ 78%] [32m[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.610s] [ 78%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[3.631s] [ 78%] Built target custom_msgs
+[3.650s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.150s] [ 80%] Built target custom_msgs__py
+[4.170s] [ 81%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_image_nv12_s.c.o[0m
+[4.170s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_image_diff_s.c.o[0m
+[4.170s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_object_info_s.c.o[0m
+[4.171s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_object_s.c.o[0m
+[4.264s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so[0m
+[4.304s] [ 89%] Built target custom_msgs__rosidl_generator_py
+[4.322s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.322s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.335s] [ 94%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.410s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.413s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.422s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.442s] [100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[4.445s] [100%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.454s] [100%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[4.467s] Invoked command in '/home/edvin/ros2_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/custom_msgs -- -j8 -l8
+[4.595s] Invoking command in '/home/edvin/ros2_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edvin/ros2_ws/build/custom_msgs
+[4.602s] -- Install configuration: ""
+[4.602s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[4.602s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[4.602s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[4.602s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_nv12.h
+[4.602s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_diff.h
+[4.603s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.603s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[4.603s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__struct.h
+[4.603s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__struct.h
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__type_support.h
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__functions.c
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__functions.h
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__functions.h
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__struct.h
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__type_support.h
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__functions.c
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__type_support.h
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__type_support.h
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__functions.c
+[4.604s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__functions.h
+[4.605s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__functions.h
+[4.605s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__struct.h
+[4.605s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__functions.c
+[4.605s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/object_info.h
+[4.605s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/object.h
+[4.605s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[4.605s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[4.605s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[4.605s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""
+[4.605s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[4.605s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[4.606s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.606s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[4.606s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__rosidl_typesupport_fastrtps_c.h
+[4.606s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__rosidl_typesupport_fastrtps_c.h
+[4.606s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__rosidl_typesupport_fastrtps_c.h
+[4.606s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[4.606s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[4.606s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.606s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[4.606s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[4.607s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[4.607s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__rosidl_typesupport_introspection_c.h
+[4.607s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__type_support.c
+[4.607s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__type_support.c
+[4.607s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__rosidl_typesupport_introspection_c.h
+[4.607s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__type_support.c
+[4.607s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__rosidl_typesupport_introspection_c.h
+[4.607s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__type_support.c
+[4.607s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+[4.608s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.608s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[4.608s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.608s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[4.608s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""
+[4.608s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[4.608s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[4.608s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/object_info.hpp
+[4.608s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_nv12.hpp
+[4.608s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/image_diff.hpp
+[4.609s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[4.609s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__builder.hpp
+[4.609s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__traits.hpp
+[4.609s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__struct.hpp
+[4.609s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__builder.hpp
+[4.609s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__traits.hpp
+[4.609s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__struct.hpp
+[4.609s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__builder.hpp
+[4.609s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__builder.hpp
+[4.610s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__struct.hpp
+[4.610s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__traits.hpp
+[4.610s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__traits.hpp
+[4.610s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__struct.hpp
+[4.610s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/object.hpp
+[4.610s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[4.610s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[4.610s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.610s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[4.610s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.611s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[4.611s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__rosidl_typesupport_fastrtps_cpp.hpp
+[4.611s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__rosidl_typesupport_fastrtps_cpp.hpp
+[4.611s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/dds_fastrtps
+[4.611s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.611s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.611s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs
+[4.611s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg
+[4.611s] -- Up-to-date: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail
+[4.611s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__type_support.cpp
+[4.611s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__rosidl_typesupport_introspection_cpp.hpp
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_nv12__type_support.cpp
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__rosidl_typesupport_introspection_cpp.hpp
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object_info__type_support.cpp
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/object__type_support.cpp
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/image_diff__rosidl_typesupport_introspection_cpp.hpp
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[4.612s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[4.612s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""
+[4.612s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_nv12.py
+[4.613s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_nv12_s.c
+[4.614s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object.py
+[4.614s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py
+[4.614s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object_s.c
+[4.614s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object_info.py
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object_info_s.c
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_diff.py
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_diff_s.c
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.615s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.644s] Listing '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...
+[4.644s] Compiling '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...
+[4.644s] Listing '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...
+[4.645s] Compiling '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py'...
+[4.645s] Compiling '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_diff.py'...
+[4.645s] Compiling '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_image_nv12.py'...
+[4.645s] Compiling '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object.py'...
+[4.645s] Compiling '/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_object_info.py'...
+[4.650s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.650s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.650s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.650s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.651s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.651s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.652s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[4.652s] -- Set runtime path of "/home/edvin/ros2_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""
+[4.652s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ImageNv12.idl
+[4.652s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ImageDiff.idl
+[4.652s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/Object.idl
+[4.652s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ObjectInfo.idl
+[4.652s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ImageNv12.msg
+[4.653s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ImageDiff.msg
+[4.653s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/Object.msg
+[4.653s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/msg/ObjectInfo.msg
+[4.653s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[4.653s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[4.653s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[4.653s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[4.653s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/path.sh
+[4.654s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[4.654s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.bash
+[4.654s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.sh
+[4.654s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[4.654s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[4.654s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/package.dsv
+[4.654s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[4.654s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.655s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.656s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.657s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.657s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.657s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.657s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[4.657s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[4.657s] -- Installing: /home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/package.xml
+[4.659s] Invoked command in '/home/edvin/ros2_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edvin/ros2_ws/build/custom_msgs

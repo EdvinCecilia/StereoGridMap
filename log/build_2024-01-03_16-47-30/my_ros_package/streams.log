@@ -1,0 +1,93 @@
+[0.074s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target image_nv12_subscriber[0m
+[0.146s] [ 66%] Built target disparity_processing_node
+[0.150s] [ 83%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[3.233s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In function ‘[01m[KMinMaxAverage calculateDepthStatistics(const uint16_t*, int, int, double, double)[m[K’:
+[3.233s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:40:13:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KminDepth[m[K’ from ‘[01m[Kfloat[m[K’ to ‘[01m[Kuint16_t[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[3.233s]    40 |     return {[01;35m[KminDepth[m[K, maxDepth, averageDepth};
+[3.233s]       |             [01;35m[K^~~~~~~~[m[K
+[3.233s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:40:23:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KmaxDepth[m[K’ from ‘[01m[Kfloat[m[K’ to ‘[01m[Kuint16_t[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[3.233s]    40 |     return {minDepth, [01;35m[KmaxDepth[m[K, averageDepth};
+[3.233s]       |                       [01;35m[K^~~~~~~~[m[K
+[3.235s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In function ‘[01m[Kcv::Mat raw_2_rgb(uint16_t*, int, int)[m[K’:
+[3.235s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:71:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kresult[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.235s]    71 |     MinMaxAverage [01;35m[Kresult[m[K = findMinMaxAndAverage(raw, length);
+[3.235s]       |                   [01;35m[K^~~~~~[m[K
+[3.308s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageNv12Subscriber::topic_callback(custom_msgs::msg::ImageNv12_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.308s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:192:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcustom_msgs::msg::ImageNv12_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.308s]   192 |         for (int i = 0; [01;35m[Ki < msg->width * msg->height[m[K; ++i) {
+[3.308s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.308s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.309s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[3.309s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.309s]   197 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Depth - Min: %f, Max: %f, Average: %f"[m[K,
+[3.309s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.309s]   198 |                             [32m[KdepthStats.min[m[K, depthStats.max, depthStats.average);
+[3.309s]       |                             [32m[K~~~~~~~~~~~~~~[m[K
+[3.309s]       |                                        [32m[K|[m[K
+[3.309s]       |                                        [32m[Kint[m[K
+[3.309s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.310s]   197 |         RCLCPP_INFO(this->get_logger(), "Depth - Min: [01;36m[K%f[m[K, Max: %f, Average: %f",
+[3.310s]       |                                                       [01;36m[K~^[m[K
+[3.310s]       |                                                        [01;36m[K|[m[K
+[3.310s]       |                                                        [01;36m[Kdouble[m[K
+[3.310s]       |                                                       [32m[K%d[m[K
+[3.310s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.310s]                  from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[3.311s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.311s]   197 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Depth - Min: %f, Max: %f, Average: %f"[m[K,
+[3.311s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.311s]   198 |                             depthStats.min, [32m[KdepthStats.max[m[K, depthStats.average);
+[3.311s]       |                                             [32m[K~~~~~~~~~~~~~~[m[K
+[3.311s]       |                                                        [32m[K|[m[K
+[3.311s]       |                                                        [32m[Kint[m[K
+[3.311s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.311s]   197 |     RCLCPP_INFO(this->get_logger(), "Depth - Min: %f, Max: [01;36m[K%f[m[K, Average: %f",
+[3.311s]       |                                                            [01;36m[K~^[m[K
+[3.311s]       |                                                             [01;36m[K|[m[K
+[3.311s]       |                                                             [01;36m[Kdouble[m[K
+[3.311s]       |                                                            [32m[K%d[m[K
+[9.859s] [100%] [32m[1mLinking CXX executable image_nv12_subscriber[0m
+[10.645s] [100%] Built target image_nv12_subscriber
+[10.656s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '0': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[10.694s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --install /home/edvin/ros2_ws/build/my_ros_package
+[10.700s] -- Install configuration: ""
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/package_run_dependencies/my_ros_package
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/parent_prefix_path/my_ros_package
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.sh
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.dsv
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.sh
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.dsv
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.bash
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.sh
+[10.701s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.zsh
+[10.702s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.dsv
+[10.702s] -- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.dsv
+[10.702s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/packages/my_ros_package
+[10.702s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig.cmake
+[10.702s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig-version.cmake
+[10.702s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.xml
+[10.702s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node
+[10.702s] -- Installing: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber
+[10.705s] -- Set runtime path of "/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber" to ""
+[10.707s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '0': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --install /home/edvin/ros2_ws/build/my_ros_package

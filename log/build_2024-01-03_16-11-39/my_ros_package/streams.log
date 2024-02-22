@@ -1,0 +1,32 @@
+[0.061s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target image_nv12_subscriber[0m
+[0.180s] [ 66%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[0.180s] [ 83%] Built target disparity_processing_node
+[6.267s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageNv12Subscriber::topic_callback(custom_msgs::msg::ImageNv12_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.268s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:169:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcustom_msgs::msg::ImageNv12_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.268s]   169 |         for (int i = 0; [01;35m[Ki < msg->width * msg->height[m[K; ++i) {
+[6.268s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.639s] [100%] [32m[1mLinking CXX executable image_nv12_subscriber[0m
+[16.650s] [100%] Built target image_nv12_subscriber
+[16.661s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '0': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[16.697s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --install /home/edvin/ros2_ws/build/my_ros_package
+[16.713s] -- Install configuration: ""
+[16.713s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/package_run_dependencies/my_ros_package
+[16.715s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/parent_prefix_path/my_ros_package
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.sh
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.dsv
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.sh
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.dsv
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.bash
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.sh
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.zsh
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.dsv
+[16.716s] -- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.dsv
+[16.716s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/packages/my_ros_package
+[16.717s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig.cmake
+[16.717s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig-version.cmake
+[16.717s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.xml
+[16.720s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node
+[16.720s] -- Installing: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber
+[16.724s] -- Set runtime path of "/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber" to ""
+[16.726s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '0': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --install /home/edvin/ros2_ws/build/my_ros_package

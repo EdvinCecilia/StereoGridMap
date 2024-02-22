@@ -1,0 +1,28 @@
+[0.073s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target image_nv12_subscriber[0m
+[0.120s] [ 66%] Built target disparity_processing_node
+[0.125s] [ 83%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[9.774s] [100%] [32m[1mLinking CXX executable image_nv12_subscriber[0m
+[10.586s] [100%] Built target image_nv12_subscriber
+[10.598s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '0': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[10.639s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --install /home/edvin/ros2_ws/build/my_ros_package
+[10.645s] -- Install configuration: ""
+[10.645s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/package_run_dependencies/my_ros_package
+[10.645s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/parent_prefix_path/my_ros_package
+[10.646s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.sh
+[10.646s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.dsv
+[10.647s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.sh
+[10.647s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.dsv
+[10.647s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.bash
+[10.647s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.sh
+[10.647s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.zsh
+[10.647s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.dsv
+[10.647s] -- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.dsv
+[10.648s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/packages/my_ros_package
+[10.648s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig.cmake
+[10.648s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig-version.cmake
+[10.648s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.xml
+[10.648s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node
+[10.648s] -- Installing: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber
+[10.650s] -- Set runtime path of "/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber" to ""
+[10.653s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '0': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --install /home/edvin/ros2_ws/build/my_ros_package

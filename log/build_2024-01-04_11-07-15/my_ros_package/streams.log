@@ -1,0 +1,20 @@
+[0.069s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target disparity_processing_node[0m
+[0.116s] [ 33%] Built target image_nv12_subscriber
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/DisparityToPointCloud.cpp.o[0m
+[1.307s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityToPointCloud.cpp:[m[K In member function ‘[01m[KSimplePointCloud DisparityToPointCloud::ConvertToPointCloud(const std::vector<short unsigned int>&, int, int)[m[K’:
+[1.308s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityToPointCloud.cpp:14:36:[m[K [01;31m[Kerror: [m[K‘[01m[KrawDisparityValue[m[K’ was not declared in this scope; did you mean ‘[01m[KrawDisparity[m[K’?
+[1.308s]    14 |                 float disparity = ([01;31m[KrawDisparityValue[m[K & 0x0fff) / 32.0f;
+[1.308s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.308s]       |                                    [32m[KrawDisparity[m[K
+[1.314s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityToPointCloud.cpp:16:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisparity_value[m[K’ was not declared in this scope; did you mean ‘[01m[Kdisparity_data[m[K’?
+[1.314s]    16 |                 if ([01;31m[Kdisparity_value[m[K == 0.0) continue;
+[1.314s]       |                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.314s]       |                     [32m[Kdisparity_data[m[K
+[1.314s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityToPointCloud.cpp:13:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KrawDisparity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.314s]    13 |                 uint16_t [01;35m[KrawDisparity[m[K = disparity_data[v * width + u];
+[1.314s]       |                          [01;35m[K^~~~~~~~~~~~[m[K
+[1.735s] gmake[2]: *** [CMakeFiles/disparity_processing_node.dir/build.make:90: CMakeFiles/disparity_processing_node.dir/src/DisparityToPointCloud.cpp.o] Error 1
+[1.735s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/disparity_processing_node.dir/all] Error 2
+[1.735s] gmake: *** [Makefile:146: all] Error 2
+[1.738s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '2': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8

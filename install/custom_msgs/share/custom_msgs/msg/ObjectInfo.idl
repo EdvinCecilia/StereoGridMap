@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/ObjectInfo.msg
+// generated code does not contain a copyright notice
+
+#include "custom_msgs/msg/Object.idl"
+
+module custom_msgs {
+  module msg {
+    struct ObjectInfo {
+      uint32 numbers;
+
+      sequence<custom_msgs::msg::Object> objects;
+    };
+  };
+};

@@ -1,0 +1,28 @@
+[0.056s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target image_nv12_subscriber[0m
+[0.168s] [ 66%] Built target disparity_processing_node
+[0.168s] [ 83%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[9.933s] [100%] [32m[1mLinking CXX executable image_nv12_subscriber[0m
+[11.049s] [100%] Built target image_nv12_subscriber
+[11.059s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '0': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[11.092s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edvin/ros2_ws/build/my_ros_package
+[11.099s] -- Install configuration: ""
+[11.100s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/package_run_dependencies/my_ros_package
+[11.101s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/parent_prefix_path/my_ros_package
+[11.101s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.sh
+[11.101s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.dsv
+[11.101s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.sh
+[11.102s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.dsv
+[11.102s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.bash
+[11.102s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.sh
+[11.102s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.zsh
+[11.102s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.dsv
+[11.102s] -- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.dsv
+[11.103s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/packages/my_ros_package
+[11.104s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig.cmake
+[11.104s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig-version.cmake
+[11.104s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.xml
+[11.107s] -- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node
+[11.110s] -- Installing: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber
+[11.113s] -- Set runtime path of "/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber" to ""
+[11.115s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '0': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edvin/ros2_ws/build/my_ros_package

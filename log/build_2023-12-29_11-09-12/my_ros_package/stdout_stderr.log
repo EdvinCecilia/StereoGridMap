@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target image_nv12_subscriber[0m
+[ 66%] Built target disparity_processing_node
+[ 83%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In function ‘[01m[Kcv::Mat raw_2_rgb(uint16_t*, int, int)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:44:33:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (uint16_t* {aka short unsigned int*}) / sizeof (uint16_t {aka short unsigned int})[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+   44 |     size_t length = [01;35m[Ksizeof(raw) / sizeof(raw[0])[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:42:29:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+   42 | cv::Mat raw_2_rgb([01;36m[Kuint16_t *raw[m[K, int width, int height)
+      |                   [01;36m[K~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable image_nv12_subscriber[0m
+[100%] Built target image_nv12_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/package_run_dependencies/my_ros_package
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/parent_prefix_path/my_ros_package
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.sh
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.dsv
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.bash
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.sh
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.zsh
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.dsv
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.dsv
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/packages/my_ros_package
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig.cmake
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig-version.cmake
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.xml
+-- Up-to-date: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber
+-- Set runtime path of "/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber" to ""

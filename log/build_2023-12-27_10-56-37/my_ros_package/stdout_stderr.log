@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target disparity_processing_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/DisparityProcessingNode.cpp.o[0m
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+   11 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/disparity_processing_node.dir/build.make:76: CMakeFiles/disparity_processing_node.dir/src/DisparityProcessingNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/disparity_processing_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

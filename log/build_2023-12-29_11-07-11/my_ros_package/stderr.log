@@ -1,0 +1,13 @@
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In function ‘[01m[Kcv::Mat raw_2_rgb(uint16_t*, int, int)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:44:33:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (uint16_t* {aka short unsigned int*}) / sizeof (uint16_t {aka short unsigned int})[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+   44 |     size_t length = [01;35m[Ksizeof(raw) / sizeof(raw[0])[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:42:29:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+   42 | cv::Mat raw_2_rgb([01;36m[Kuint16_t *raw[m[K, int width, int height)
+      |                   [01;36m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:45:48:[m[K [01;31m[Kerror: [m[Kcannot resolve overloaded function ‘[01m[Kdata[m[K’ based on conversion to type ‘[01m[Kconst uint16_t*[m[K’ {aka ‘[01m[Kconst short unsigned int*[m[K’}
+   45 |     MinMaxAverage result = [01;31m[KfindMinMaxAndAverage(data, length)[m[K;
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_nv12_subscriber.dir/build.make:76: CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_nv12_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

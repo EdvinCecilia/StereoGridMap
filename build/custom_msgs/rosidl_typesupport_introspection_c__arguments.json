@@ -1,0 +1,25 @@
+{
+  "package_name": "custom_msgs",
+  "output_dir": "/home/edvin/ros2_ws/build/custom_msgs/rosidl_typesupport_introspection_c/custom_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/edvin/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/ImageNv12.idl",
+    "/home/edvin/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/ImageDiff.idl",
+    "/home/edvin/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/Object.idl",
+    "/home/edvin/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/ObjectInfo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/edvin/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs/msg/ImageNv12.idl",
+    "/home/edvin/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs/msg/ImageDiff.idl",
+    "/home/edvin/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs/msg/Object.idl",
+    "/home/edvin/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs/msg/ObjectInfo.idl"
+  ]
+}

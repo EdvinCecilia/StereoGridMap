@@ -1,0 +1,36 @@
+[0.059s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.094s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.222s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.251s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.259s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.342s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.344s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.606s] -- Found custom_msgs: 0.0.0 (/home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake)
+[0.626s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.740s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.747s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.809s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.809s] -- Configured cppcheck include dirs: 
+[0.809s] -- Configured cppcheck exclude dirs and/or files: 
+[0.810s] -- Added test 'lint_cmake' to check CMake code style
+[0.811s] -- Added test 'uncrustify' to check C / C++ code style
+[0.811s] -- Configured uncrustify additional arguments: 
+[0.811s] -- Added test 'xmllint' to check XML markup files
+[0.815s] -- Configuring done
+[0.838s] -- Generating done
+[0.840s] -- Build files have been written to: /home/edvin/ros2_ws/build/my_ros_package
+[0.868s] [35m[1mConsolidate compiler generated dependencies of target disparity_processing_node[0m
+[0.878s] [ 16%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[0.890s] [ 83%] Built target disparity_processing_node
+[4.296s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageNv12Subscriber::processDisparityData(const uint16_t*, int, int)[m[K’:
+[4.296s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:140:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_msg[m[K’ was not declared in this scope
+[4.297s]   140 |     publisher_->publish(*[01;31m[Kimage_msg[m[K);
+[4.297s]       |                          [01;31m[K^~~~~~~~~[m[K
+[7.433s] gmake[2]: *** [CMakeFiles/image_nv12_subscriber.dir/build.make:76: CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o] Error 1
+[7.434s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_nv12_subscriber.dir/all] Error 2
+[7.434s] gmake: *** [Makefile:146: all] Error 2
+[7.437s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '2': CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/home/edvin/ros2_ws/install/my_ros_package:/opt/ros/humble /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8

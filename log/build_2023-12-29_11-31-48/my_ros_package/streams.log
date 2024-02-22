@@ -1,0 +1,22 @@
+[0.047s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target image_nv12_subscriber[0m
+[0.102s] [ 66%] Built target disparity_processing_node
+[0.108s] [ 83%] [32mBuilding CXX object CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o[0m
+[3.053s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In function ‘[01m[Kcv::Mat raw_2_rgb(uint16_t*, int, int)[m[K’:
+[3.054s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:47:33:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (uint16_t* {aka short unsigned int*}) / sizeof (uint16_t {aka short unsigned int})[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+[3.054s]    47 |     size_t length = [01;35m[Ksizeof(raw) / sizeof(raw[0])[m[K;
+[3.054s]       |                     [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.054s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:44:29:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+[3.054s]    44 | cv::Mat raw_2_rgb([01;36m[Kuint16_t *raw[m[K, int width, int height)
+[3.054s]       |                   [01;36m[K~~~~~~~~~~^~~[m[K
+[3.118s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageNv12Subscriber::topic_callback(custom_msgs::msg::ImageNv12_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.118s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:165:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcustom_msgs::msg::ImageNv12_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.118s]   165 |         for (int i = 0; [01;35m[Ki < msg->width * msg->height[m[K; ++i) {
+[3.118s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.129s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:166:13:[m[K [01;31m[Kerror: [m[K‘[01m[KconvertEndian[m[K’ was not declared in this scope
+[3.129s]   166 |             [01;31m[KconvertEndian[m[K(data_ptr[i]);
+[3.129s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[5.960s] gmake[2]: *** [CMakeFiles/image_nv12_subscriber.dir/build.make:76: CMakeFiles/image_nv12_subscriber.dir/src/image_nv12_subscriber.cpp.o] Error 1
+[5.960s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_nv12_subscriber.dir/all] Error 2
+[5.960s] gmake: *** [Makefile:146: all] Error 2
+[5.962s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '2': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8

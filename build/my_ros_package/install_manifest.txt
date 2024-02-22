@@ -1,0 +1,17 @@
+/home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/package_run_dependencies/my_ros_package
+/home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/parent_prefix_path/my_ros_package
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.sh
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.dsv
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.sh
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.dsv
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.bash
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.sh
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.zsh
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.dsv
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.dsv
+/home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/packages/my_ros_package
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig.cmake
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig-version.cmake
+/home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.xml
+/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node
+/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/image_nv12_subscriber

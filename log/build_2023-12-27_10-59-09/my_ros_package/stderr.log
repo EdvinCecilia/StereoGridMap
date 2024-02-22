@@ -1,0 +1,25 @@
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:[m[K In member function ‘[01m[Kint GridMap::findMaxCountCell(float, const std::vector<float>&)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:103:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeta_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  103 | int GridMap::findMaxCountCell([01;35m[Kfloat beta_r[m[K, const std::vector<float>& ar_values) {
+      |                               [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:103:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kar_values[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  103 | int GridMap::findMaxCountCell(float beta_r, [01;35m[Kconst std::vector<float>& ar_values[m[K) {
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:[m[K In member function ‘[01m[Kvoid GridMap::adjustGridsByOccupancy(float, const std::vector<float>&)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:121:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  121 |             float [01;35m[Kbi[m[K = ar_values[i] * cells[i][j].averageHeight / resolution_;
+      |                   [01;35m[K^~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:118:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeta_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  118 | void GridMap::adjustGridsByOccupancy([01;35m[Kfloat beta_r[m[K, const std::vector<float>& ar_values) {
+      |                                      [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:[m[K In constructor ‘[01m[KDisparityProcessingNode::DisparityProcessingNode()[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:22:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+   22 |        [01;31m[Kimage_pub_[m[K = this->create_publisher<sensor_msgs::msg::Image>("/processed_image", 10);
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:[m[K In member function ‘[01m[Kvoid DisparityProcessingNode::disparityCallback(custom_msgs::msg::ImageNv12_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+   61 |         [01;31m[Kimage_pub_[m[K->publish(ros_image);
+      |         [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/disparity_processing_node.dir/build.make:76: CMakeFiles/disparity_processing_node.dir/src/DisparityProcessingNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/disparity_processing_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target disparity_processing_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/DisparityProcessingNode.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable disparity_processing_node[0m
+[100%] Built target disparity_processing_node
+-- Install configuration: ""
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/package_run_dependencies/my_ros_package
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/parent_prefix_path/my_ros_package
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.sh
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/ament_prefix_path.dsv
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.sh
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/environment/path.dsv
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.bash
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.sh
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.zsh
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/local_setup.dsv
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.dsv
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/ament_index/resource_index/packages/my_ros_package
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig.cmake
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/cmake/my_ros_packageConfig-version.cmake
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/share/my_ros_package/package.xml
+-- Installing: /home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node
+-- Set runtime path of "/home/edvin/ros2_ws/install/my_ros_package/lib/my_ros_package/disparity_processing_node" to ""

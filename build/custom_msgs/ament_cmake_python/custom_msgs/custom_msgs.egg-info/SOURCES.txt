@@ -1,0 +1,11 @@
+setup.py
+custom_msgs/__init__.py
+custom_msgs.egg-info/PKG-INFO
+custom_msgs.egg-info/SOURCES.txt
+custom_msgs.egg-info/dependency_links.txt
+custom_msgs.egg-info/top_level.txt
+custom_msgs/msg/__init__.py
+custom_msgs/msg/_image_diff.py
+custom_msgs/msg/_image_nv12.py
+custom_msgs/msg/_object.py
+custom_msgs/msg/_object_info.py

@@ -1,0 +1,65 @@
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In function ‘[01m[KMinMaxAverage calculateDepthStatistics(const uint16_t*, int, int, double, double)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:40:13:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KminDepth[m[K’ from ‘[01m[Kfloat[m[K’ to ‘[01m[Kuint16_t[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   40 |     return {[01;35m[KminDepth[m[K, maxDepth, averageDepth};
+      |             [01;35m[K^~~~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:40:23:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KmaxDepth[m[K’ from ‘[01m[Kfloat[m[K’ to ‘[01m[Kuint16_t[m[K’ {aka ‘[01m[Kshort unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   40 |     return {minDepth, [01;35m[KmaxDepth[m[K, averageDepth};
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In function ‘[01m[Kcv::Mat raw_2_rgb(uint16_t*, int, int)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:71:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kresult[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   71 |     MinMaxAverage [01;35m[Kresult[m[K = findMinMaxAndAverage(raw, length);
+      |                   [01;35m[K^~~~~~[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageNv12Subscriber::topic_callback(custom_msgs::msg::ImageNv12_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:192:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcustom_msgs::msg::ImageNv12_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  192 |         for (int i = 0; [01;35m[Ki < msg->width * msg->height[m[K; ++i) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  197 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Depth - Min: %f, Max: %f, Average: %f"[m[K,
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  198 |                             [32m[KdepthStats.min[m[K, depthStats.max, depthStats.average);
+      |                             [32m[K~~~~~~~~~~~~~~[m[K
+      |                                        [32m[K|[m[K
+      |                                        [32m[Kint[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  197 |         RCLCPP_INFO(this->get_logger(), "Depth - Min: [01;36m[K%f[m[K, Max: %f, Average: %f",
+      |                                                       [01;36m[K~^[m[K
+      |                                                        [01;36m[K|[m[K
+      |                                                        [01;36m[Kdouble[m[K
+      |                                                       [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:1[m[K:
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  197 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Depth - Min: %f, Max: %f, Average: %f"[m[K,
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  198 |                             depthStats.min, [32m[KdepthStats.max[m[K, depthStats.average);
+      |                                             [32m[K~~~~~~~~~~~~~~[m[K
+      |                                                        [32m[K|[m[K
+      |                                                        [32m[Kint[m[K
+[01m[K/home/edvin/ros2_ws/src/my_ros_package/src/image_nv12_subscriber.cpp:197:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  197 |     RCLCPP_INFO(this->get_logger(), "Depth - Min: %f, Max: [01;36m[K%f[m[K, Average: %f",
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kdouble[m[K
+      |                                                            [32m[K%d[m[K

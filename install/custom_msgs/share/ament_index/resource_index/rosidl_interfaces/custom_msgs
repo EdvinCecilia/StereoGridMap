@@ -1,0 +1,8 @@
+msg/ImageDiff.idl
+msg/ImageDiff.msg
+msg/ImageNv12.idl
+msg/ImageNv12.msg
+msg/Object.idl
+msg/Object.msg
+msg/ObjectInfo.idl
+msg/ObjectInfo.msg

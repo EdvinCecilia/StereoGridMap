@@ -1,0 +1,32 @@
+[0.048s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.069s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.197s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.221s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.223s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.228s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.253s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.308s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.413s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.557s] -- Found custom_msgs: 0.0.0 (/home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake)
+[0.576s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.687s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.750s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.750s] -- Configured cppcheck include dirs: 
+[0.750s] -- Configured cppcheck exclude dirs and/or files: 
+[0.750s] -- Added test 'lint_cmake' to check CMake code style
+[0.751s] -- Added test 'uncrustify' to check C / C++ code style
+[0.751s] -- Configured uncrustify additional arguments: 
+[0.752s] -- Added test 'xmllint' to check XML markup files
+[0.754s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.754s]   ament_target_dependencies() the passed package name 'cv_bridge' was not
+[0.754s]   found before
+[0.754s] Call Stack (most recent call first):
+[0.754s]   CMakeLists.txt:46 (ament_target_dependencies)
+[0.754s] 
+[0.754s] [0m
+[0.754s] -- Configuring incomplete, errors occurred!
+[0.754s] See also "/home/edvin/ros2_ws/build/my_ros_package/CMakeFiles/CMakeOutput.log".
+[0.762s] gmake: *** [Makefile:321: cmake_check_build_system] Error 1
+[0.765s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '2': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8

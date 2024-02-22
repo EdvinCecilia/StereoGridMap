@@ -1,0 +1,55 @@
+[0.044s] Invoking command in '/home/edvin/ros2_ws/build/my_ros_package': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
+[0.067s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.222s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.224s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.230s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.309s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.411s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.556s] -- Found custom_msgs: 0.0.0 (/home/edvin/ros2_ws/install/custom_msgs/share/custom_msgs/cmake)
+[0.574s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.699s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.708s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.769s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.769s] -- Configured cppcheck include dirs: 
+[0.769s] -- Configured cppcheck exclude dirs and/or files: 
+[0.769s] -- Added test 'lint_cmake' to check CMake code style
+[0.770s] -- Added test 'uncrustify' to check C / C++ code style
+[0.770s] -- Configured uncrustify additional arguments: 
+[0.770s] -- Added test 'xmllint' to check XML markup files
+[0.772s] -- Configuring done
+[0.789s] -- Generating done
+[0.791s] -- Build files have been written to: /home/edvin/ros2_ws/build/my_ros_package
+[0.816s] [35m[1mConsolidate compiler generated dependencies of target disparity_processing_node[0m
+[0.832s] [ 50%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/DisparityToPointCloud.cpp.o[0m
+[0.832s] [ 50%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/DisparityProcessingNode.cpp.o[0m
+[0.833s] [ 75%] [32mBuilding CXX object CMakeFiles/disparity_processing_node.dir/src/GridMap.cpp.o[0m
+[2.021s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:[m[K In member function ‘[01m[Kint GridMap::findMaxCountCell(float, const std::vector<float>&)[m[K’:
+[2.021s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:103:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeta_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.022s]   103 | int GridMap::findMaxCountCell([01;35m[Kfloat beta_r[m[K, const std::vector<float>& ar_values) {
+[2.022s]       |                               [01;35m[K~~~~~~^~~~~~[m[K
+[2.022s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:103:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kar_values[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.022s]   103 | int GridMap::findMaxCountCell(float beta_r, [01;35m[Kconst std::vector<float>& ar_values[m[K) {
+[2.022s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.022s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:[m[K In member function ‘[01m[Kvoid GridMap::adjustGridsByOccupancy(float, const std::vector<float>&)[m[K’:
+[2.022s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:121:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.022s]   121 |             float [01;35m[Kbi[m[K = ar_values[i] * cells[i][j].averageHeight / resolution_;
+[2.023s]       |                   [01;35m[K^~[m[K
+[2.023s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/GridMap.cpp:118:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeta_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.023s]   118 | void GridMap::adjustGridsByOccupancy([01;35m[Kfloat beta_r[m[K, const std::vector<float>& ar_values) {
+[2.023s]       |                                      [01;35m[K~~~~~~^~~~~~[m[K
+[4.266s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:[m[K In constructor ‘[01m[KDisparityProcessingNode::DisparityProcessingNode()[m[K’:
+[4.266s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:22:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+[4.266s]    22 |        [01;31m[Kimage_pub_[m[K = this->create_publisher<sensor_msgs::msg::Image>("/processed_image", 10);
+[4.266s]       |        [01;31m[K^~~~~~~~~~[m[K
+[4.302s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:[m[K In member function ‘[01m[Kvoid DisparityProcessingNode::disparityCallback(custom_msgs::msg::ImageNv12_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.302s] [01m[K/home/edvin/ros2_ws/src/my_ros_package/src/DisparityProcessingNode.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub_[m[K’ was not declared in this scope
+[4.302s]    61 |         [01;31m[Kimage_pub_[m[K->publish(ros_image);
+[4.302s]       |         [01;31m[K^~~~~~~~~~[m[K
+[7.088s] gmake[2]: *** [CMakeFiles/disparity_processing_node.dir/build.make:76: CMakeFiles/disparity_processing_node.dir/src/DisparityProcessingNode.cpp.o] Error 1
+[7.089s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/disparity_processing_node.dir/all] Error 2
+[7.089s] gmake: *** [Makefile:146: all] Error 2
+[7.092s] Invoked command in '/home/edvin/ros2_ws/build/my_ros_package' returned '2': AMENT_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edvin/ros2_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/edvin/ros2_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/edvin/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edvin/ros2_ws/build/my_ros_package -- -j8 -l8
